@@ -1,0 +1,239 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Character Code"
+msgstr "角色代码"
+
+msgid "Ask AI"
+msgstr "询问 AI"
+
+msgid "Save"
+msgstr "保存"
+
+msgid "Unsaved changes"
+msgstr "未保存的更改"
+
+msgid "Unsaved Changes"
+msgstr "未保存的更改"
+
+msgid "Discard unsaved character code changes?"
+msgstr "放弃未保存的角色代码更改吗？"
+
+msgid "Saved and reloaded"
+msgstr "已保存并重新加载"
+
+msgid "Success"
+msgstr "成功"
+
+msgid "Error"
+msgstr "错误"
+
+msgid "Ask AI template copied. Paste it into an AI chatbot."
+msgstr "AI 提示模板已复制。请粘贴到 AI 聊天机器人中。"
+
+msgid "Copied"
+msgstr "已复制"
+
+msgid "I want to implement:"
+msgstr "我想实现："
+
+msgid "Please modify the full {class_name} character automation code above."
+msgstr "请修改上面完整的 {class_name} 角色自动化代码。"
+
+msgid ""
+"Return only the complete modified Python code for the whole file, not a "
+"patch and not an explanation."
+msgstr "只返回整个文件完整修改后的 Python 代码，不要返回补丁或解释。"
+
+msgid ""
+"Keep the class name as {class_name}. Preserve imports that are still needed."
+msgstr "保持类名为 {class_name}。保留仍然需要的 import。"
+
+msgid ""
+"Use this BaseChar reference while reasoning about helper methods, task APIs,"
+" state, switching, cooldowns, and combat flow:"
+msgstr "在思考辅助方法、任务 API、状态、切人、冷却和战斗流程时，请使用这个 BaseChar 参考："
+
+msgid "Xiangli Yao"
+msgstr "相里要"
+
+msgid "Shorekeeper"
+msgstr "守岸人"
+
+msgid "Buling"
+msgstr "卜灵"
+
+msgid "Lynae"
+msgstr "琳奈"
+
+msgid "Luuk Herssen"
+msgstr "陆·赫斯"
+
+msgid "Sigrika"
+msgstr "西格莉卡"
+
+msgid "Rover"
+msgstr "漂泊者"
+
+msgid "Yangyang: Xuanling"
+msgstr "秧秧·玄翎"
+
+msgid "All fields are required."
+msgstr "所有字段均为必填项。"
+
+msgid "Author"
+msgstr "作者"
+
+msgid "Choose Export Folder"
+msgstr "选择导出文件夹"
+
+msgid "Confirm Import"
+msgstr "确认导入"
+
+msgid "Create Team"
+msgstr "创建队伍"
+
+msgid "Create or import a team to edit character code."
+msgstr "创建或导入队伍以编辑角色代码。"
+
+msgid "Description"
+msgstr "描述"
+
+msgid "Export"
+msgstr "导出"
+
+msgid "Export Team"
+msgstr "导出队伍"
+
+msgid "Import"
+msgstr "导入"
+
+msgid "Import Team"
+msgstr "导入队伍"
+
+msgid "Importing will override the local code for this team."
+msgstr "导入将覆盖此队伍的本地代码。"
+
+msgid "Invalid Team Archive"
+msgstr "无效的队伍压缩包"
+
+msgid "Missing Information"
+msgstr "信息不完整"
+
+msgid "Modified"
+msgstr "修改时间"
+
+msgid "Name"
+msgstr "名称"
+
+msgid "Reset Character Code"
+msgstr "重置角色代码"
+
+msgid "Reset this character to built in code for this team?"
+msgstr "将此队伍中的该角色重置为内置代码？"
+
+msgid "Reset to Built In"
+msgstr "重置为内置代码"
+
+msgid "Save changes before exporting."
+msgstr "请先保存更改再导出。"
+
+msgid "Select 3 different characters"
+msgstr "选择3个不同的角色"
+
+msgid "Team"
+msgstr "队伍"
+
+msgid "Team Workshop"
+msgstr "队伍工坊"
+
+msgid "Team character code saved and reloaded for the matching team."
+msgstr "队伍角色代码已保存，并为匹配的队伍重新加载。"
+
+msgid "Team character code saved."
+msgstr "队伍角色代码已保存。"
+
+msgid "Team created."
+msgstr "队伍已创建。"
+
+msgid "Team exported to {path}"
+msgstr "队伍已导出到 {path}"
+
+msgid "Team imported and reloaded for the matching team."
+msgstr "队伍已导入，并为匹配的队伍重新加载。"
+
+msgid "Team imported."
+msgstr "队伍已导入。"
+
+msgid "Teams"
+msgstr "队伍"
+
+msgid "The archive is for a different team."
+msgstr "该压缩包属于其他队伍。"
+
+msgid "Upload Team"
+msgstr "上传队伍"
+
+msgid "Version"
+msgstr "版本"
+
+msgid "Workshop"
+msgstr "工坊"
+
+msgid "Workshop Error"
+msgstr "工坊错误"
+
+msgid "Workshop archive is too large."
+msgstr "工坊压缩包过大。"
+
+msgid "Workshop download URL is invalid."
+msgstr "工坊下载地址无效。"
+
+msgid "Zip files (*.zip)"
+msgstr "ZIP 文件 (*.zip)"
+
+msgid "Workshop response is too large."
+msgstr "工坊响应过大。"
+
+msgid "Workshop returned invalid JSON."
+msgstr "工坊返回了无效的 JSON。"
+
+msgid "Workshop response is invalid."
+msgstr "工坊响应无效。"
+
+msgid "Workshop returned a different team."
+msgstr "工坊返回了其他队伍。"
+
+msgid "Cancel"
+msgstr "取消"
+
+msgid "Close"
+msgstr "关闭"
+
+msgid "{team_name} - Team Workshop"
+msgstr "{team_name} - 队伍工坊"
+
+msgid "Delete Team"
+msgstr "删除队伍"
+
+msgid "Permanently delete the team {team}?"
+msgstr "确定要永久删除队伍 {team} 吗？"
+
+msgid "Team deleted."
+msgstr "队伍已删除。"
+
+msgid "Export Selected"
+msgstr "导出所选队伍"
+
+msgid "Export Current"
+msgstr "导出当前队伍"
+
+msgid "No current team detected."
+msgstr "未检测到当前队伍。"
+
+msgid "Team Info"
+msgstr "队伍说明"
+
+msgid "Character code must be text"
+msgstr "角色代码必须为文本"

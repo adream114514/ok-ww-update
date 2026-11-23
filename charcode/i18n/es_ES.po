@@ -1,0 +1,230 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Character Code"
+msgstr "Código del personaje"
+
+msgid "Ask AI"
+msgstr "Preguntar a la IA"
+
+msgid "Save"
+msgstr "Guardar"
+
+msgid "Unsaved changes"
+msgstr "Cambios sin guardar"
+
+msgid "Unsaved Changes"
+msgstr "Cambios sin guardar"
+
+msgid "Discard unsaved character code changes?"
+msgstr "¿Descartar los cambios sin guardar del código del personaje?"
+
+msgid "Saved and reloaded"
+msgstr "Guardado y recargado"
+
+msgid "Success"
+msgstr "Éxito"
+
+msgid "Error"
+msgstr "Error"
+
+msgid "Ask AI template copied. Paste it into an AI chatbot."
+msgstr "Plantilla para IA copiada. Pégala en un chatbot de IA."
+
+msgid "Copied"
+msgstr "Copiado"
+
+msgid "I want to implement:"
+msgstr "Quiero implementar:"
+
+msgid "Please modify the full {class_name} character automation code above."
+msgstr ""
+"Modifica el código completo de automatización del personaje {class_name} "
+"anterior."
+
+msgid ""
+"Return only the complete modified Python code for the whole file, not a "
+"patch and not an explanation."
+msgstr ""
+"Devuelve solo el código Python completo modificado de todo el archivo, no un"
+" parche ni una explicación."
+
+msgid ""
+"Keep the class name as {class_name}. Preserve imports that are still needed."
+msgstr ""
+"Mantén el nombre de la clase como {class_name}. Conserva las importaciones "
+"que sigan siendo necesarias."
+
+msgid ""
+"Use this BaseChar reference while reasoning about helper methods, task APIs,"
+" state, switching, cooldowns, and combat flow:"
+msgstr ""
+"Usa esta referencia de BaseChar para razonar sobre m?todos auxiliares, API "
+"de tareas, estado, cambios de personaje, tiempos de recarga y flujo de "
+"combate:"
+
+msgid "Rover"
+msgstr "Rover"
+
+msgid "Yangyang: Xuanling"
+msgstr "Yangyang: Xuanling"
+
+msgid "All fields are required."
+msgstr "Todos los campos son obligatorios."
+
+msgid "Author"
+msgstr "Autor"
+
+msgid "Choose Export Folder"
+msgstr "Elegir carpeta de exportación"
+
+msgid "Confirm Import"
+msgstr "Confirmar importación"
+
+msgid "Create Team"
+msgstr "Crear equipo"
+
+msgid "Create or import a team to edit character code."
+msgstr "Crea o importa un equipo para editar el código de los personajes."
+
+msgid "Description"
+msgstr "Descripción"
+
+msgid "Export"
+msgstr "Exportar"
+
+msgid "Export Team"
+msgstr "Exportar equipo"
+
+msgid "Import"
+msgstr "Importar"
+
+msgid "Import Team"
+msgstr "Importar equipo"
+
+msgid "Importing will override the local code for this team."
+msgstr "La importación sobrescribirá el código local de este equipo."
+
+msgid "Invalid Team Archive"
+msgstr "Archivo de equipo no válido"
+
+msgid "Missing Information"
+msgstr "Falta información"
+
+msgid "Modified"
+msgstr "Modificado"
+
+msgid "Name"
+msgstr "Nombre"
+
+msgid "Reset Character Code"
+msgstr "Restablecer código del personaje"
+
+msgid "Reset this character to built in code for this team?"
+msgstr "¿Restablecer este personaje al código integrado para este equipo?"
+
+msgid "Reset to Built In"
+msgstr "Restablecer al integrado"
+
+msgid "Save changes before exporting."
+msgstr "Guarda los cambios antes de exportar."
+
+msgid "Select 3 different characters"
+msgstr "Selecciona 3 personajes diferentes"
+
+msgid "Team"
+msgstr "Equipo"
+
+msgid "Team Workshop"
+msgstr "Taller de equipos"
+
+msgid "Team character code saved and reloaded for the matching team."
+msgstr "Código del personaje guardado y recargado para el equipo coincidente."
+
+msgid "Team character code saved."
+msgstr "Código del personaje del equipo guardado."
+
+msgid "Team created."
+msgstr "Equipo creado."
+
+msgid "Team exported to {path}"
+msgstr "Equipo exportado a {path}"
+
+msgid "Team imported and reloaded for the matching team."
+msgstr "Equipo importado y recargado para el equipo coincidente."
+
+msgid "Team imported."
+msgstr "Equipo importado."
+
+msgid "Teams"
+msgstr "Equipos"
+
+msgid "The archive is for a different team."
+msgstr "El archivo pertenece a otro equipo."
+
+msgid "Upload Team"
+msgstr "Subir equipo"
+
+msgid "Version"
+msgstr "Versión"
+
+msgid "Workshop"
+msgstr "Taller"
+
+msgid "Workshop Error"
+msgstr "Error del taller"
+
+msgid "Workshop archive is too large."
+msgstr "El archivo del taller es demasiado grande."
+
+msgid "Workshop download URL is invalid."
+msgstr "La URL de descarga del taller no es válida."
+
+msgid "Zip files (*.zip)"
+msgstr "Archivos ZIP (*.zip)"
+
+msgid "Workshop response is too large."
+msgstr "La respuesta del taller es demasiado grande."
+
+msgid "Workshop returned invalid JSON."
+msgstr "El taller devolvió un JSON no válido."
+
+msgid "Workshop response is invalid."
+msgstr "La respuesta del taller no es válida."
+
+msgid "Workshop returned a different team."
+msgstr "El taller devolvió un equipo diferente."
+
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgid "Close"
+msgstr "Cerrar"
+
+msgid "{team_name} - Team Workshop"
+msgstr "{team_name} - Taller de equipos"
+
+msgid "Delete Team"
+msgstr "Eliminar equipo"
+
+msgid "Permanently delete the team {team}?"
+msgstr "¿Eliminar permanentemente el equipo {team}?"
+
+msgid "Team deleted."
+msgstr "Equipo eliminado."
+
+msgid "Export Selected"
+msgstr "Exportar equipo seleccionado"
+
+msgid "Export Current"
+msgstr "Exportar equipo actual"
+
+msgid "No current team detected."
+msgstr "No se ha detectado el equipo actual."
+
+msgid "Team Info"
+msgstr "Info del equipo"
+
+msgid "Character code must be text"
+msgstr "El código del personaje debe ser texto"

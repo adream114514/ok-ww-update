@@ -1,0 +1,3 @@
+.build/
+.sync-result.json
+__pycache__/

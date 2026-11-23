@@ -1,0 +1,58 @@
+name: Sync official releases + character code
+
+on:
+  schedule:
+    - cron: "17 */2 * * *"   # every 2 hours
+  workflow_dispatch:
+    inputs:
+      min_version:
+        description: "Oldest official version to mirror"
+        required: false
+        default: "v3.8.13"
+      dry_run:
+        description: "Build and verify only, push nothing"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-releases
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install polib==1.2.0
+
+      - name: Mirror and patch new official releases
+        env:
+          UPSTREAM_URL: https://github.com/ok-oldking/ok-ww-update.git
+          SELF_GIT_URL: https://github.com/${{ github.repository }}.git
+          MIN_VERSION: ${{ inputs.min_version || 'v3.8.13' }}
+          DRY_RUN: ${{ inputs.dry_run && '1' || '0' }}
+        run: |
+          git config user.name  "adream114514"
+          git config user.email "360310421+adream114514@users.noreply.github.com"
+          python tools/sync_releases.py
+
+      - name: Record status (keeps the schedule alive)
+        if: always() && inputs.dry_run != true
+        run: |
+          [ -f .sync-result.json ] || exit 0
+          built=$(python -c "import json;print(len(json.load(open('.sync-result.json'))['built']))")
+          age_days=$(( ( $(date +%s) - $(git log -1 --format=%ct) ) / 86400 ))
+          if [ "$built" = "0" ] && [ "$age_days" -lt 45 ]; then exit 0; fi
+          mkdir -p status && cp .sync-result.json status/last-sync.json
+          git add status/last-sync.json
+          git commit -m "status: $(python -c "import json;d=json.load(open('.sync-result.json'));print('built ' + ', '.join(d['built']) if d['built'] else 'keepalive')")"
+          git push origin HEAD:main

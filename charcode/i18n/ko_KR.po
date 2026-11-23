@@ -1,0 +1,239 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Character Code"
+msgstr "캐릭터 코드"
+
+msgid "Ask AI"
+msgstr "AI에게 묻기"
+
+msgid "Save"
+msgstr "저장"
+
+msgid "Unsaved changes"
+msgstr "저장되지 않은 변경 사항"
+
+msgid "Unsaved Changes"
+msgstr "저장되지 않은 변경 사항"
+
+msgid "Discard unsaved character code changes?"
+msgstr "저장하지 않은 캐릭터 코드 변경 사항을 버리시겠습니까?"
+
+msgid "Saved and reloaded"
+msgstr "저장하고 다시 불러왔습니다"
+
+msgid "Success"
+msgstr "성공"
+
+msgid "Error"
+msgstr "오류"
+
+msgid "Ask AI template copied. Paste it into an AI chatbot."
+msgstr "AI 요청 템플릿을 복사했습니다. AI 챗봇에 붙여넣으세요."
+
+msgid "Copied"
+msgstr "복사됨"
+
+msgid "I want to implement:"
+msgstr "구현하고 싶은 내용:"
+
+msgid "Please modify the full {class_name} character automation code above."
+msgstr "위의 {class_name} 캐릭터 자동화 코드 전체를 수정해 주세요."
+
+msgid ""
+"Return only the complete modified Python code for the whole file, not a "
+"patch and not an explanation."
+msgstr "패치나 설명이 아닌, 파일 전체의 완전히 수정된 Python 코드만 반환해 주세요."
+
+msgid ""
+"Keep the class name as {class_name}. Preserve imports that are still needed."
+msgstr "클래스 이름은 {class_name}로 유지하고, 아직 필요한 import는 보존해 주세요."
+
+msgid ""
+"Use this BaseChar reference while reasoning about helper methods, task APIs,"
+" state, switching, cooldowns, and combat flow:"
+msgstr "헬퍼 메서드, 태스크 API, 상태, 교체, 재사용 대기시간, 전투 흐름을 판단할 때 이 BaseChar 참고를 사용하세요:"
+
+msgid "Xiangli Yao"
+msgstr "상리요"
+
+msgid "Shorekeeper"
+msgstr "파수인"
+
+msgid "Buling"
+msgstr "복링"
+
+msgid "Lynae"
+msgstr "린네"
+
+msgid "Luuk Herssen"
+msgstr "루크 · 헤르센"
+
+msgid "Sigrika"
+msgstr "시그리카"
+
+msgid "Rover"
+msgstr "방랑자"
+
+msgid "Yangyang: Xuanling"
+msgstr "양양·현령"
+
+msgid "All fields are required."
+msgstr "모든 항목을 입력해야 합니다."
+
+msgid "Author"
+msgstr "작성자"
+
+msgid "Choose Export Folder"
+msgstr "내보낼 폴더 선택"
+
+msgid "Confirm Import"
+msgstr "가져오기 확인"
+
+msgid "Create Team"
+msgstr "팀 만들기"
+
+msgid "Create or import a team to edit character code."
+msgstr "캐릭터 코드를 편집하려면 팀을 만들거나 가져오세요."
+
+msgid "Description"
+msgstr "설명"
+
+msgid "Export"
+msgstr "내보내기"
+
+msgid "Export Team"
+msgstr "팀 내보내기"
+
+msgid "Import"
+msgstr "가져오기"
+
+msgid "Import Team"
+msgstr "팀 가져오기"
+
+msgid "Importing will override the local code for this team."
+msgstr "가져오면 이 팀의 로컬 코드를 덮어씁니다."
+
+msgid "Invalid Team Archive"
+msgstr "잘못된 팀 압축 파일"
+
+msgid "Missing Information"
+msgstr "정보 누락"
+
+msgid "Modified"
+msgstr "수정 시간"
+
+msgid "Name"
+msgstr "이름"
+
+msgid "Reset Character Code"
+msgstr "캐릭터 코드 초기화"
+
+msgid "Reset this character to built in code for this team?"
+msgstr "이 팀에서 이 캐릭터를 기본 제공 코드로 초기화할까요?"
+
+msgid "Reset to Built In"
+msgstr "기본 제공 코드로 초기화"
+
+msgid "Save changes before exporting."
+msgstr "내보내기 전에 변경 사항을 저장하세요."
+
+msgid "Select 3 different characters"
+msgstr "서로 다른 캐릭터 3명 선택"
+
+msgid "Team"
+msgstr "팀"
+
+msgid "Team Workshop"
+msgstr "팀 워크숍"
+
+msgid "Team character code saved and reloaded for the matching team."
+msgstr "팀 캐릭터 코드를 저장하고 일치하는 팀에 다시 불러왔습니다."
+
+msgid "Team character code saved."
+msgstr "팀 캐릭터 코드를 저장했습니다."
+
+msgid "Team created."
+msgstr "팀을 만들었습니다."
+
+msgid "Team exported to {path}"
+msgstr "팀을 {path}에 내보냈습니다"
+
+msgid "Team imported and reloaded for the matching team."
+msgstr "팀을 가져오고 일치하는 팀에 다시 불러왔습니다."
+
+msgid "Team imported."
+msgstr "팀을 가져왔습니다."
+
+msgid "Teams"
+msgstr "팀"
+
+msgid "The archive is for a different team."
+msgstr "이 압축 파일은 다른 팀용입니다."
+
+msgid "Upload Team"
+msgstr "팀 업로드"
+
+msgid "Version"
+msgstr "버전"
+
+msgid "Workshop"
+msgstr "워크숍"
+
+msgid "Workshop Error"
+msgstr "워크숍 오류"
+
+msgid "Workshop archive is too large."
+msgstr "워크숍 압축 파일이 너무 큽니다."
+
+msgid "Workshop download URL is invalid."
+msgstr "워크숍 다운로드 URL이 잘못되었습니다."
+
+msgid "Zip files (*.zip)"
+msgstr "ZIP 파일 (*.zip)"
+
+msgid "Workshop response is too large."
+msgstr "워크숍 응답이 너무 큽니다."
+
+msgid "Workshop returned invalid JSON."
+msgstr "워크숍에서 잘못된 JSON을 반환했습니다."
+
+msgid "Workshop response is invalid."
+msgstr "워크숍 응답이 잘못되었습니다."
+
+msgid "Workshop returned a different team."
+msgstr "워크숍에서 다른 팀을 반환했습니다."
+
+msgid "Cancel"
+msgstr "취소"
+
+msgid "Close"
+msgstr "닫기"
+
+msgid "{team_name} - Team Workshop"
+msgstr "{team_name} - 팀 워크숍"
+
+msgid "Delete Team"
+msgstr "팀 삭제"
+
+msgid "Permanently delete the team {team}?"
+msgstr "{team} 팀을 영구적으로 삭제하시겠습니까?"
+
+msgid "Team deleted."
+msgstr "팀을 삭제했습니다."
+
+msgid "Export Selected"
+msgstr "선택한 팀 내보내기"
+
+msgid "Export Current"
+msgstr "현재 팀 내보내기"
+
+msgid "No current team detected."
+msgstr "현재 팀을 감지하지 못했습니다."
+
+msgid "Team Info"
+msgstr "팀 설명"
+
+msgid "Character code must be text"
+msgstr "캐릭터 코드는 텍스트여야 합니다"
