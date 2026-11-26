@@ -1,9 +1,9 @@
 {
-  "checked_at": "2026-11-25T13:34:09+00:00",
+  "checked_at": "2026-11-26T17:17:34+00:00",
   "upstream": "https://github.com/ok-oldking/ok-ww-update.git",
   "built": [
-    "v3.8.15"
+    "v3.8.16"
   ],
   "failed": [],
-  "latest": "v3.8.15"
+  "latest": "v3.8.16"
 }
